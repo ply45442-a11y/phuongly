@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đơn xin nghỉ học</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        .center {
+            text-align: center;
+        }
+        .header {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .signature {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .signature div {
+            text-align: center;
+            width: 45%;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Quốc hiệu và tiêu ngữ -->
+    <div class="center">
+        <p class="header">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</p>
+        <p><b>Độc lập - Tự do - Hạnh phúc</b></p>
+        <hr width="40%">
+    </div>
+
+    <!-- Địa điểm, thời gian -->
+    <p class="center"><i>Hà Nội, ngày ..... tháng ..... năm ......</i></p>
+
+    <!-- Tiêu đề đơn -->
+    <h2 class="center"><u>ĐƠN XIN NGHỈ HỌC</u></h2>
+
+    <!-- Phần kính gửi -->
+    <p><b>Kính gửi:</b></p>
+    <ul>
+        <li>Ban Chủ nhiệm Khoa ............................................................</li>
+        <li>Giáo viên Chủ nhiệm lớp ............................................................</li>
+        <li>Giáo viên phụ trách môn học .........................................................</li>
+    </ul>
+
+    <!-- Thông tin cá nhân -->
+    <table>
+        <tr>
+            <td>Em tên là:</td>
+            <td>......................................................</td>
+            <td>Mã số sinh viên:</td>
+            <td>......................................................</td>
+        </tr>
+        <tr>
+            <td>Hiện đang học lớp:</td>
+            <td>......................................................</td>
+            <td>Khóa:</td>
+            <td>......................................................</td>
+        </tr>
+        <tr>
+            <td>Hệ đào tạo:</td>
+            <td>......................................................</td>
+            <td>Tại Trường:</td>
+            <td>......................................................</td>
+        </tr>
+    </table>
+
+    <!-- Nội dung chính của đơn -->
+    <p>
+        Hôm nay em viết đơn này kính mong quý Thầy (Cô) cho phép em được nghỉ học 
+        từ ngày ...../..../20.... đến ...../..../20.....
+    </p>
+    <p><b>Lý do:</b> ...................................................................................................................</p>
+
+    <p>
+        Em xin cam đoan thực hiện đầy đủ trách nhiệm đối với môn học.  
+        Em xin chân thành cảm ơn!
+    </p>
+
+    <!-- Ký tên -->
+    <div class="signature">
+        <div>
+            <b>Ý kiến GVCN</b><br>
+            <i>(Ký và ghi rõ họ tên)</i>
+        </div>
+        <div>
+            <b>Người làm đơn</b><br>
+            <i>(Ký và ghi rõ họ tên)</i>
+        </div>
+    </div>
+</body>
+</html>
